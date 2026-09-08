@@ -176,6 +176,10 @@ p{margin:0}
 .sig{font-family:var(--f-script);font-size:clamp(32px,3.4vw,42px);color:var(--gold);line-height:1}
 .sig-b{display:block;font-family:var(--f-sans);font-size:10px;letter-spacing:.32em;
   text-transform:uppercase;color:var(--muted);margin-top:8px}
+/* Brokerage credit. TREC requires the broker's name at >=half the largest agent
+   contact text; .sig is clamp(32px,3.4vw,42px), so this stays above half of it. */
+.sig-brk{display:block;font-family:var(--f-display);font-size:clamp(17px,1.8vw,22px);
+  line-height:1.3;color:var(--ink-2);letter-spacing:.01em;margin-top:10px}
 
 /* ================= ABOUT ================= */
 .about{display:grid;grid-template-columns:1fr;gap:clamp(30px,4vw,58px);align-items:center}
@@ -441,6 +445,7 @@ html{scroll-behavior:smooth;scroll-padding-top:calc(var(--navh) + 12px)}
         <div class="sig-wrap">
           <span class="sig">Jaime Enriquez</span>
           <span class="sig-b">Realtor&reg;</span>
+          <span class="sig-brk">Monument Realty</span>
         </div>
       </div>
       <div class="about-img rise" data-d="1">
