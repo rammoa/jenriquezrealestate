@@ -1,0 +1,776 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>The Buyer&rsquo;s Journey &mdash; Jaime Enriquez, Realtor</title>
+<meta name="description" content="A step-by-step guide to buying a home in Dallas&ndash;Fort Worth &mdash; financing, offers, inspection and closing. From Jaime Enriquez, REALTOR&reg; with Monument Realty.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..700;1,400..600&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Jost:wght@300..600&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap">
+</head>
+<body>
+<style>
+/* ================= TOKENS ================= */
+:root{
+  --bg:#FBF9F5; --bg-2:#F1EBE1; --panel:#F7F3EC; --panel-2:#FFFFFF;
+  --ink:#14140F; --ink-2:#4C4A42; --muted:#7E7B71;
+  --gold:#B08D57; --gold-2:#C9A66B; --gold-soft:rgba(176,141,87,.16);
+  --line:#E0D8CA; --line-2:#EDE6DA;
+  --btn:#14140F; --btn-ink:#FBF9F5;
+  --nav-bg:rgba(251,249,245,.94); --nav-line:#E4DCCE;
+  --cta-bg:#14140F; --cta-ink:#FBF9F5; --cta-border:#14140F;
+  --hero-shade:rgba(251,249,245,.55);
+  --hero-scrim:linear-gradient(100deg,rgba(251,249,245,.95) 0%,rgba(251,249,245,.86) 26%,rgba(251,249,245,.35) 52%,rgba(251,249,245,0) 72%);
+  --hero-base:linear-gradient(180deg,rgba(251,249,245,0) 62%,rgba(251,249,245,.75) 100%);
+  --hero-img:var(--img-day);
+  --icon-bg:#14140F; --icon-ink:#C9A66B;
+  --shadow:0 1px 2px rgba(20,20,15,.05),0 14px 40px rgba(20,20,15,.06);
+  --stars:#C9A66B;
+  --map-land:#EFE9DE; --map-served:rgba(176,141,87,.20); --map-water:#C4D8E0; --map-river:#AFC9D3;
+  --map-road:#FFFFFF; --map-road-case:#DFD6C6; --map-min:#F8F4EC; --map-min-case:#E5DCCC;
+  --map-line:#D8CFBE; --map-label:#8C8578;
+  --f-display:"Playfair Display",Georgia,"Times New Roman",serif;
+  --f-sans:"Jost","Helvetica Neue",Arial,sans-serif;
+  --f-script:"Parisienne",cursive;
+  --wrap:1240px; --pad:clamp(20px,5vw,56px); --navh:76px;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --bg:#0A0A0A; --bg-2:#0F0F0E; --panel:#141413; --panel-2:#1A1A18;
+    --ink:#F7F4EF; --ink-2:#C6C2BA; --muted:#8D8A82;
+    --gold:#C9A66B; --gold-2:#DFC48F; --gold-soft:rgba(201,166,107,.15);
+    --line:#2B2823; --line-2:#211E1A;
+    --btn:#C4A574; --btn-ink:#0A0A0A;
+    --nav-bg:rgba(10,10,10,.92); --nav-line:#242019;
+    --cta-bg:transparent; --cta-ink:#F7F4EF; --cta-border:#6E6455;
+    --hero-shade:rgba(10,10,10,.5);
+    --hero-scrim:linear-gradient(100deg,rgba(10,10,10,.94) 0%,rgba(10,10,10,.85) 26%,rgba(10,10,10,.4) 52%,rgba(10,10,10,0) 74%);
+    --hero-base:linear-gradient(180deg,rgba(10,10,10,0) 60%,rgba(10,10,10,.85) 100%);
+    --hero-img:var(--img-night);
+    --icon-bg:#0A0A0A; --icon-ink:#C9A66B;
+    --shadow:0 1px 2px rgba(0,0,0,.5),0 14px 40px rgba(0,0,0,.4);
+    --map-land:#131312; --map-served:rgba(201,166,107,.16); --map-water:#14252B; --map-river:#1A3038;
+    --map-road:#3E3E3B; --map-road-case:#232320; --map-min:#2C2C29; --map-min-case:#1C1C1A;
+    --map-line:#2B2823; --map-label:#8A8377;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#0A0A0A; --bg-2:#0F0F0E; --panel:#141413; --panel-2:#1A1A18;
+  --ink:#F7F4EF; --ink-2:#C6C2BA; --muted:#8D8A82;
+  --gold:#C9A66B; --gold-2:#DFC48F; --gold-soft:rgba(201,166,107,.15);
+  --line:#2B2823; --line-2:#211E1A;
+  --btn:#C4A574; --btn-ink:#0A0A0A;
+  --nav-bg:rgba(10,10,10,.92); --nav-line:#242019;
+  --cta-bg:transparent; --cta-ink:#F7F4EF; --cta-border:#6E6455;
+  --hero-shade:rgba(10,10,10,.5);
+  --hero-scrim:linear-gradient(100deg,rgba(10,10,10,.94) 0%,rgba(10,10,10,.85) 26%,rgba(10,10,10,.4) 52%,rgba(10,10,10,0) 74%);
+  --hero-base:linear-gradient(180deg,rgba(10,10,10,0) 60%,rgba(10,10,10,.85) 100%);
+  --hero-img:var(--img-night);
+  --icon-bg:#0A0A0A; --icon-ink:#C9A66B;
+  --shadow:0 1px 2px rgba(0,0,0,.5),0 14px 40px rgba(0,0,0,.4);
+  --map-land:#131312; --map-served:rgba(201,166,107,.16); --map-water:#14252B; --map-river:#1A3038;
+  --map-road:#3E3E3B; --map-road-case:#232320; --map-min:#2C2C29; --map-min-case:#1C1C1A;
+  --map-line:#2B2823; --map-label:#8A8377;
+}
+
+/* ================= BASE ================= */
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--f-sans);
+  font-size:16px;font-weight:300;line-height:1.65;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+::selection{background:var(--gold);color:#0A0A0A}
+a{color:inherit;text-decoration:none}
+img{max-width:100%;display:block}
+:focus-visible{outline:2px solid var(--gold);outline-offset:3px}
+h1,h2,h3,h4{margin:0;font-family:var(--f-display);font-weight:400;letter-spacing:-.01em;text-wrap:balance}
+p{margin:0}
+.wrap{max-width:var(--wrap);margin:0 auto;padding:0 var(--pad)}
+.eyebrow{font-size:11.5px;font-weight:400;letter-spacing:.26em;text-transform:uppercase;color:var(--gold)}
+.rule{width:56px;height:1px;background:var(--gold);border:0;margin:22px 0}
+.rule.center{margin:18px auto}
+.sect{padding:clamp(64px,8vw,116px) 0}
+.lead{color:var(--ink-2);font-size:16.5px;line-height:1.8;max-width:46ch}
+
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;cursor:pointer;
+  font-family:var(--f-sans);font-size:11.5px;font-weight:400;letter-spacing:.2em;text-transform:uppercase;
+  padding:16px 30px;border:1px solid var(--btn);background:var(--btn);color:var(--btn-ink);transition:.25s}
+.btn:hover{background:transparent;color:var(--ink);border-color:var(--ink)}
+.btn.ghost{background:transparent;color:var(--ink);border-color:var(--ink)}
+.btn.ghost:hover{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.btn svg{width:15px;height:15px;flex:none}
+.link-more{display:inline-flex;align-items:center;gap:9px;font-size:11px;letter-spacing:.2em;
+  text-transform:uppercase;color:var(--gold);transition:gap .25s}
+.link-more:hover{gap:15px}
+
+/* ================= NAV ================= */
+.nav{position:sticky;top:0;z-index:80;background:var(--nav-bg);backdrop-filter:blur(14px);
+  border-bottom:1px solid var(--nav-line)}
+.nav-in{max-width:var(--wrap);margin:0 auto;padding:0 var(--pad);height:var(--navh);
+  display:flex;align-items:center;gap:22px}
+.brand{display:flex;align-items:center;gap:13px;flex:none}
+.brand .mono{font-family:var(--f-display);font-size:38px;line-height:.9;color:var(--gold);letter-spacing:-.06em;font-weight:500}
+.brand b{display:block;font-family:var(--f-sans);font-size:14px;font-weight:400;letter-spacing:.16em;
+  text-transform:uppercase;line-height:1.2}
+.brand span{display:block;font-size:9.5px;letter-spacing:.3em;text-transform:uppercase;color:var(--muted);margin-top:3px}
+.menu{display:none;margin-left:auto;gap:clamp(14px,1.9vw,28px)}
+@media (min-width:1080px){.menu{display:flex}}
+.menu a{white-space:nowrap;font-size:11.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-2);
+  padding:6px 0;border-bottom:1px solid transparent;transition:.2s}
+.menu a:hover{color:var(--ink)}
+.menu a.on{color:var(--ink);border-bottom-color:var(--gold)}
+.nav-r{display:flex;align-items:center;gap:12px;margin-left:auto}
+@media (min-width:1080px){.nav-r{margin-left:0}}
+.lang{display:flex;align-items:center;gap:5px;font-size:11px;letter-spacing:.14em;color:var(--muted)}
+.lang button{background:none;border:0;cursor:pointer;font-family:inherit;font-size:11px;letter-spacing:.14em;
+  color:var(--muted);padding:4px 2px;transition:.2s}
+.lang button[aria-pressed="true"]{color:var(--gold)}
+.tbtn{width:34px;height:34px;border:1px solid var(--line);background:none;cursor:pointer;
+  display:grid;place-items:center;color:var(--ink-2);border-radius:50%;transition:.2s}
+.tbtn:hover{color:var(--gold);border-color:var(--gold)}
+.navcta{display:none;white-space:nowrap;background:var(--cta-bg);color:var(--cta-ink);border:1px solid var(--cta-border);
+  font-size:11px;letter-spacing:.2em;text-transform:uppercase;padding:13px 22px;transition:.25s}
+.navcta:hover{background:var(--gold);border-color:var(--gold);color:#0A0A0A}
+@media (min-width:760px){.navcta{display:inline-block}}
+.burger{width:34px;height:34px;border:1px solid var(--line);background:none;cursor:pointer;display:grid;place-items:center;color:var(--ink)}
+@media (min-width:1080px){.burger{display:none}}
+.burger span{display:block;width:15px;height:1px;background:currentColor;position:relative}
+.burger span::before,.burger span::after{content:"";position:absolute;left:0;width:15px;height:1px;background:currentColor}
+.burger span::before{top:-5px}.burger span::after{top:5px}
+.drawer{display:none;flex-direction:column;border-top:1px solid var(--nav-line);background:var(--nav-bg);
+  padding:10px var(--pad) 22px}
+.drawer.open{display:flex}
+@media (min-width:1080px){.drawer,.drawer.open{display:none}}
+.drawer a{padding:13px 0;font-size:12px;letter-spacing:.18em;text-transform:uppercase;
+  border-bottom:1px solid var(--line-2);color:var(--ink-2)}
+.drawer a.dw-cta{margin-top:16px;border:1px solid var(--cta-border);background:var(--cta-bg);
+  color:var(--cta-ink);justify-content:center;padding:15px 20px}
+
+/* ================= HERO ================= */
+.hero{position:relative;overflow:hidden;background:var(--bg)}
+.hero-bg{position:absolute;inset:0;background-image:var(--hero-img);background-size:cover;
+  background-position:58% 62%;filter:saturate(1.02)}
+.hero-bg::after{content:"";position:absolute;inset:0;background:var(--hero-scrim)}
+.hero-base{position:absolute;inset:0;background:var(--hero-base);pointer-events:none}
+.hero-in{position:relative;max-width:var(--wrap);margin:0 auto;padding:clamp(56px,8vw,104px) var(--pad) clamp(64px,9vw,116px);
+  min-height:clamp(500px,74vh,720px);display:flex;flex-direction:column;justify-content:center}
+.hero-copy{position:relative;z-index:3;max-width:min(680px,100%)}
+.hero h1{font-size:clamp(44px,6.4vw,86px);line-height:1.02;letter-spacing:-.02em;margin:20px 0 0}
+.hero .sub{margin-top:4px;color:var(--ink-2);font-size:16px;line-height:1.7;max-width:34ch}
+.hero-btns{display:flex;flex-wrap:wrap;gap:14px;margin-top:34px}
+.portrait{position:absolute;right:max(0px,calc(50% - var(--wrap)/2 - 3vw));bottom:0;height:96%;width:auto;
+  z-index:2;pointer-events:none;filter:drop-shadow(0 24px 48px rgba(0,0,0,.35));
+  -webkit-mask-image:linear-gradient(to bottom,#000 0,#000 86%,rgba(0,0,0,.35) 96%,transparent 100%);
+  mask-image:linear-gradient(to bottom,#000 0,#000 86%,rgba(0,0,0,.35) 96%,transparent 100%)}
+@media (max-width:900px){
+  .hero-bg{background-position:62% 55%}
+  .portrait{height:56%;right:-6%;opacity:.9}
+  .hero h1{font-size:clamp(38px,10vw,54px)}
+  .hero-in{min-height:520px;justify-content:flex-start}
+}
+@media (max-width:560px){.portrait{height:44%;right:-14%;opacity:.75}}
+.sig{font-family:var(--f-script);font-size:clamp(32px,3.4vw,42px);color:var(--gold);line-height:1}
+.sig-b{display:block;font-family:var(--f-sans);font-size:10px;letter-spacing:.32em;
+  text-transform:uppercase;color:var(--muted);margin-top:8px}
+/* Brokerage credit. TREC requires the broker's name at >=half the largest agent
+   contact text; .sig is clamp(32px,3.4vw,42px), so this stays above half of it. */
+.sig-brk{display:block;font-family:var(--f-display);font-size:clamp(17px,1.8vw,22px);
+  line-height:1.3;color:var(--ink-2);letter-spacing:.01em;margin-top:10px}
+
+/* ================= ABOUT ================= */
+.about{display:grid;grid-template-columns:1fr;gap:clamp(30px,4vw,58px);align-items:center}
+@media (min-width:900px){.about{grid-template-columns:minmax(0,.85fr) minmax(0,1.15fr)}}
+.about-img{position:relative;overflow:hidden;box-shadow:var(--shadow)}
+.about-img img{width:100%;height:100%;object-fit:cover;aspect-ratio:3/2}
+.about h2{font-size:clamp(30px,3.9vw,50px);line-height:1.1;margin-top:16px}
+.about .lead+.lead{margin-top:16px}
+.about .sig-wrap{margin-top:30px}
+
+/* ================= SERVICES ================= */
+.svc-head{text-align:center;margin-bottom:clamp(34px,4vw,54px)}
+.svc-head h2{font-size:clamp(26px,3vw,38px);margin-top:14px}
+.svc{display:grid;grid-template-columns:1fr;gap:clamp(18px,2vw,26px)}
+@media (min-width:760px){.svc{grid-template-columns:repeat(3,1fr)}}
+.card{background:var(--panel);border:1px solid var(--line-2);padding:clamp(30px,3vw,44px) clamp(22px,2.4vw,32px);
+  display:flex;flex-direction:column;align-items:center;text-align:center;gap:16px;transition:.3s}
+.card:hover{border-color:var(--gold);transform:translateY(-4px);box-shadow:var(--shadow)}
+.card .badge{width:64px;height:64px;border-radius:50%;background:var(--icon-bg);color:var(--icon-ink);
+  display:grid;place-items:center;flex:none}
+.card .badge svg{width:26px;height:26px}
+.card h3{font-family:var(--f-display);font-size:26px;letter-spacing:.06em;text-transform:uppercase;font-weight:400}
+.card p{color:var(--ink-2);font-size:15px;line-height:1.75;max-width:24ch;flex:1 0 auto}
+.card .link-more{margin-top:4px}
+
+/* ================= STATS BAND ================= */
+.band{background:var(--bg-2);border-top:1px solid var(--line-2);border-bottom:1px solid var(--line-2)}
+:root[data-theme="dark"] .band,
+:root:not([data-theme="light"]) .band{background:#0A0A0A}
+@media (prefers-color-scheme:light){:root:not([data-theme="dark"]) .band{background:var(--bg-2)}}
+.band-in{display:grid;grid-template-columns:1fr;gap:clamp(30px,3vw,44px);padding:clamp(44px,5vw,64px) 0}
+@media (min-width:1000px){.band-in{grid-template-columns:minmax(0,1.75fr) minmax(0,1fr);gap:clamp(34px,4vw,56px)}}
+.stats{display:grid;grid-template-columns:repeat(2,1fr);gap:26px 0}
+@media (min-width:640px){.stats{grid-template-columns:repeat(4,1fr)}}
+.stat{text-align:center;padding:0 12px;position:relative}
+@media (min-width:640px){.stat+.stat::before{content:"";position:absolute;left:0;top:6px;bottom:6px;width:1px;background:var(--line)}}
+.stat .ic{color:var(--gold);display:grid;place-items:center;margin-bottom:14px}
+.stat .ic svg{width:26px;height:26px}
+.stat .v{font-family:var(--f-display);font-size:clamp(30px,3.4vw,40px);line-height:1;color:var(--ink)}
+.stat .k{display:block;margin-top:12px;font-size:9.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--muted);line-height:1.7}
+.revbox{border-left:1px solid var(--line);padding-left:clamp(22px,2.6vw,40px);display:flex;flex-direction:column;gap:12px}
+@media (max-width:999px){.revbox{border-left:0;border-top:1px solid var(--line);padding-left:0;padding-top:30px}}
+.revbox .lbl{font-size:10px;letter-spacing:.26em;text-transform:uppercase;color:var(--gold)}
+.stars{color:var(--stars);letter-spacing:.22em;font-size:14px}
+.revbox q{quotes:none;color:var(--ink-2);font-size:15px;line-height:1.75;font-style:normal}
+.revbox .who{font-size:11px;letter-spacing:.1em;color:var(--muted)}
+.revbox .btn{align-self:flex-start;margin-top:8px}
+
+/* ================= COMMUNITIES MAP ================= */
+.terr{display:grid;grid-template-columns:1fr;gap:clamp(20px,2.6vw,32px);align-items:start}
+@media (min-width:980px){.terr{grid-template-columns:minmax(0,1fr) 288px}}
+.mapframe{position:relative;background:var(--map-land);border:1px solid var(--line);overflow:hidden;box-shadow:var(--shadow)}
+.mapframe svg{width:100%;height:auto;display:block;touch-action:manipulation}
+.m-land{fill:var(--map-land)}
+.m-served{fill:var(--map-served)}
+.m-water{fill:var(--map-water)}
+.m-river{fill:none;stroke:var(--map-river);stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
+.m-road-min-case{fill:none;stroke:var(--map-min-case);stroke-width:2.6;stroke-linecap:round;stroke-linejoin:round}
+.m-road-min{fill:none;stroke:var(--map-min);stroke-width:1.3;stroke-linecap:round;stroke-linejoin:round}
+.m-road-case{fill:none;stroke:var(--map-road-case);stroke-width:4.4;stroke-linecap:round;stroke-linejoin:round}
+.m-road{fill:none;stroke:var(--map-road);stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round}
+.m-cty{fill:none;stroke:var(--map-line);stroke-width:1;vector-effect:non-scaling-stroke}
+.m-cty-on{fill:none;stroke:var(--gold);stroke-width:1.5;vector-effect:non-scaling-stroke;opacity:.8}
+.m-ctyname{font-family:var(--f-sans);font-size:12px;letter-spacing:.18em;fill:var(--map-label);opacity:.8;
+  paint-order:stroke;stroke:var(--map-land);stroke-width:3px;stroke-linejoin:round;pointer-events:none}
+.m-ctyname.on{fill:var(--gold);opacity:.95}
+.node{cursor:pointer;outline:none}
+.node .hit{fill:transparent}
+.node .pin-sh{fill:rgba(0,0,0,.22)}
+.node .pin{fill:var(--gold);stroke:var(--map-land);stroke-width:2.4}
+.node .pin-in{fill:var(--map-land);opacity:.92}
+.node .pin,.node .pin-in,.node .pin-sh,.node .halo{transform-box:fill-box;transform-origin:center;
+  transition:transform .22s cubic-bezier(.2,.7,.2,1),opacity .22s}
+.node:hover .pin,.node:focus-visible .pin,.node.act .pin,
+.node:hover .pin-in,.node:focus-visible .pin-in,.node.act .pin-in,
+.node:hover .pin-sh,.node:focus-visible .pin-sh,.node.act .pin-sh{transform:scale(1.42)}
+.node .halo{fill:none;stroke:var(--gold);stroke-width:1.4;opacity:0;transform:scale(.55)}
+.node.act .halo,.node:focus-visible .halo{opacity:.6;transform:scale(1)}
+.node .lbl{font-family:var(--f-sans);font-size:14px;font-weight:400;fill:var(--map-label);
+  paint-order:stroke;stroke:var(--map-land);stroke-width:3.5px;stroke-linejoin:round;pointer-events:none;transition:fill .2s}
+.node:hover .lbl,.node:focus-visible .lbl,.node.act .lbl{fill:var(--gold)}
+@media (max-width:700px){
+  .node .hit{r:64}
+  .node .pin,.node .pin-in,.node .pin-sh{transform:scale(1.9)}
+  .node:hover .pin,.node:focus-visible .pin,.node.act .pin,
+  .node:hover .pin-in,.node:focus-visible .pin-in,.node.act .pin-in,
+  .node:hover .pin-sh,.node:focus-visible .pin-sh,.node.act .pin-sh{transform:scale(2.5)}
+  .node .lbl{opacity:0;font-size:26px;stroke-width:7px;transition:opacity .2s,fill .2s}
+  .node.act .lbl,.node:focus-visible .lbl{opacity:1}
+  .m-ctyname{font-size:23px;stroke-width:6px}
+  .m-road-case{stroke-width:7.5}.m-road{stroke-width:4.2}
+  .m-road-min-case{stroke-width:4.4}.m-road-min{stroke-width:2.2}
+  .m-river{stroke-width:2.6}.m-cty-on{stroke-width:2.4}
+}
+.maplegend{position:absolute;left:14px;bottom:14px;display:flex;align-items:center;gap:8px;
+  background:color-mix(in srgb,var(--map-land) 86%,transparent);backdrop-filter:blur(8px);
+  border:1px solid var(--map-line);padding:7px 12px;
+  font-size:9px;letter-spacing:.18em;text-transform:uppercase;color:var(--map-label)}
+.maplegend i{width:15px;height:10px;background:var(--map-served);border:1px solid var(--gold);display:block;flex:none}
+.readout{border:1px solid var(--line);background:var(--panel);display:flex;flex-direction:column}
+.readout .rhead{padding:14px 18px;border-bottom:1px solid var(--line-2);
+  font-size:9.5px;letter-spacing:.22em;text-transform:uppercase;color:var(--gold)}
+.readout .rbody{padding:20px 18px 22px;display:flex;flex-direction:column;gap:14px;min-height:212px}
+.readout h4{font-family:var(--f-display);font-size:clamp(22px,2.2vw,28px);line-height:1.1}
+.readout .kv{display:flex;flex-direction:column;gap:10px}
+.readout .kv div{display:flex;justify-content:space-between;gap:12px;border-bottom:1px solid var(--line-2);padding-bottom:9px}
+.readout .kv dt{margin:0;font-size:9.5px;letter-spacing:.18em;text-transform:uppercase;color:var(--muted)}
+.readout .kv dd{margin:0;font-size:12px;color:var(--ink);text-align:right}
+.readout p{color:var(--ink-2);font-size:15px;line-height:1.7}
+.readout .hint{margin-top:auto;font-size:10px;letter-spacing:.1em;color:var(--muted);line-height:1.7}
+
+/* ================= REVIEWS ================= */
+.rev-top{display:grid;grid-template-columns:1fr;gap:clamp(26px,3.4vw,50px);align-items:start}
+@media (min-width:980px){.rev-top{grid-template-columns:minmax(0,1fr) 292px}}
+.bigq{font-family:var(--f-display);font-size:clamp(22px,2.7vw,34px);line-height:1.42;color:var(--ink);max-width:26ch}
+.bigq em{font-style:italic;color:var(--gold)}
+.qmark{font-family:var(--f-display);font-size:56px;line-height:.4;color:var(--gold);display:block;margin-bottom:20px}
+.attrib{margin-top:26px;padding-top:16px;border-top:1px solid var(--line);display:flex;gap:18px;flex-wrap:wrap;align-items:center}
+.attrib span{font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted)}
+.score{border:1px solid var(--line);background:var(--panel);padding:clamp(22px,2.4vw,30px);display:flex;flex-direction:column;gap:11px}
+.score .v{font-family:var(--f-display);font-size:clamp(44px,5vw,62px);line-height:.9;color:var(--ink)}
+.score .k{font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:var(--muted);line-height:1.7}
+.score .btn{margin-top:6px;justify-content:space-between;padding:15px 20px;font-size:10.5px;letter-spacing:.15em;text-align:left}
+.score .btn span{display:block}
+.rev-grid{display:grid;grid-template-columns:1fr;gap:clamp(16px,1.8vw,22px);margin-top:clamp(30px,3.4vw,48px)}
+@media (min-width:700px){.rev-grid{grid-template-columns:repeat(2,1fr)}}
+@media (min-width:1100px){.rev-grid{grid-template-columns:repeat(3,1fr)}}
+.rv{background:var(--panel);border:1px solid var(--line-2);padding:clamp(22px,2.2vw,28px);
+  display:flex;flex-direction:column;gap:14px}
+.rv p{color:var(--ink-2);font-size:15px;line-height:1.75;flex:1}
+.rv .ell{color:var(--muted)}
+.rv footer{border-top:1px solid var(--line-2);padding-top:13px;display:flex;flex-direction:column;gap:5px}
+.rv footer b{font-family:var(--f-display);font-size:15px;font-weight:400}
+.rv footer span{font-size:9.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);line-height:1.6}
+.rev-cta{margin-top:clamp(26px,3vw,40px);border:1px solid var(--gold);background:var(--gold-soft);
+  padding:clamp(24px,2.6vw,34px);display:flex;flex-direction:column;gap:20px;align-items:flex-start}
+@media (min-width:820px){.rev-cta{flex-direction:row;align-items:center;justify-content:space-between;gap:36px}}
+.rev-cta h3{font-family:var(--f-display);font-size:clamp(21px,2.2vw,27px);margin-bottom:8px}
+.rev-cta p{color:var(--ink-2);font-size:15px;line-height:1.7;max-width:52ch}
+
+/* ================= CONTACT ================= */
+.form-card{border:1px solid var(--line);background:var(--panel);padding:clamp(24px,3vw,40px);
+  display:grid;grid-template-columns:1fr;gap:0 26px;margin-bottom:clamp(40px,5vw,68px)}
+@media (min-width:760px){.form-card{grid-template-columns:1fr 1fr}}
+.form-card .full{grid-column:1/-1}
+.fld{display:flex;flex-direction:column;gap:6px;padding:12px 0;border-bottom:1px solid var(--line-2)}
+.fld label{font-size:9.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--muted)}
+.fld input,.fld select,.fld textarea{background:none;border:0;color:var(--ink);font-family:var(--f-sans);
+  font-size:15.5px;font-weight:300;padding:3px 0;width:100%;resize:vertical}
+.fld input::placeholder,.fld textarea::placeholder{color:var(--muted);opacity:.65}
+.fld :focus{outline:0}
+.fld:focus-within label{color:var(--gold)}
+.form-foot{grid-column:1/-1;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:16px;margin-top:24px}
+.form-note{font-size:10.5px;letter-spacing:.1em;color:var(--muted);max-width:34ch;line-height:1.7}
+.sent{grid-column:1/-1;margin-top:16px;border:1px solid var(--gold);background:var(--gold-soft);
+  padding:14px 16px;font-size:13px;color:var(--gold)}
+.cta{position:relative;overflow:hidden;background:var(--bg-2);border:1px solid var(--line-2)}
+:root[data-theme="dark"] .cta,:root:not([data-theme="light"]) .cta{background:#0A0A0A}
+@media (prefers-color-scheme:light){:root:not([data-theme="dark"]) .cta{background:var(--bg-2)}}
+.cta-sky{position:absolute;left:0;bottom:0;width:min(38%,420px);opacity:.5;color:var(--gold);pointer-events:none}
+@media (max-width:860px){.cta-sky{width:70%;opacity:.22}}
+.cta-in{position:relative;z-index:2;display:grid;grid-template-columns:1fr;gap:28px;align-items:center;
+  padding:clamp(40px,5vw,64px) clamp(24px,4vw,56px)}
+@media (min-width:900px){.cta-in{grid-template-columns:minmax(0,1fr) auto;padding-left:clamp(200px,26vw,340px)}}
+.cta h2{font-family:var(--f-display);font-size:clamp(28px,3.6vw,46px);margin-top:12px}
+.cta-btns{display:flex;flex-wrap:wrap;gap:14px;margin-top:26px}
+.cta-r{display:flex;flex-direction:column;gap:16px;align-items:flex-start}
+@media (min-width:900px){.cta-r{align-items:flex-end;text-align:right}}
+.socials{display:flex;gap:10px}
+.socials a{width:40px;height:40px;border:1px solid var(--line);border-radius:50%;display:grid;place-items:center;
+  color:var(--ink-2);transition:.25s}
+.socials a:hover{color:var(--gold);border-color:var(--gold);transform:translateY(-2px)}
+.socials svg{width:17px;height:17px}
+.cta-r .meta{font-size:11.5px;letter-spacing:.08em;color:var(--muted);line-height:1.9}
+
+/* ================= FOOTER ================= */
+.foot{border-top:1px solid var(--line-2);padding:26px 0 34px}
+.foot-in{display:flex;flex-wrap:wrap;gap:10px 26px;align-items:center;justify-content:space-between}
+.foot-in span,.foot-in a{font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+.foot-in a:hover{color:var(--gold)}
+
+/* ================= MOTION ================= */
+.rise{opacity:0;transform:translateY(18px)}
+.rise.in{opacity:1;transform:none;transition:opacity .8s cubic-bezier(.2,.7,.2,1),transform .8s cubic-bezier(.2,.7,.2,1)}
+[data-d="1"]{transition-delay:.08s}[data-d="2"]{transition-delay:.16s}[data-d="3"]{transition-delay:.24s}
+[data-d="4"]{transition-delay:.32s}[data-d="5"]{transition-delay:.4s}
+@media (prefers-reduced-motion:reduce){
+  .rise{opacity:1!important;transform:none!important;transition:none!important}
+  .card:hover{transform:none}
+  *{scroll-behavior:auto!important}
+}
+html{scroll-behavior:smooth;scroll-padding-top:calc(var(--navh) + 12px)}
+
+/* ================= BUYER GUIDE PAGE ================= */
+.pg-hero{background:var(--bg-2);border-bottom:1px solid var(--line-2)}
+.pg-hero-in{max-width:var(--wrap);margin:0 auto;padding:clamp(52px,7vw,92px) var(--pad) clamp(46px,6vw,78px)}
+.pg-hero h1{font-size:clamp(36px,5.4vw,68px);line-height:1.04;letter-spacing:-.02em;margin-top:18px;max-width:16ch}
+.pg-hero .lead{margin-top:22px;max-width:52ch}
+.backlink{display:inline-flex;align-items:center;gap:9px;margin-top:30px;font-size:11px;
+  letter-spacing:.2em;text-transform:uppercase;color:var(--gold);transition:gap .25s}
+.backlink:hover{gap:15px}
+.sec-head{max-width:62ch;margin-bottom:clamp(30px,4vw,50px)}
+.sec-head h2{font-size:clamp(26px,3.2vw,42px);margin-top:14px;line-height:1.12}
+.sec-head p{color:var(--ink-2);font-size:16px;line-height:1.8;margin-top:16px;max-width:56ch}
+
+/* ten steps */
+.steps{list-style:none;margin:0;padding:0;display:grid;gap:0}
+.step{display:grid;grid-template-columns:auto minmax(0,1fr);gap:clamp(18px,2.6vw,40px);
+  padding:clamp(24px,2.8vw,34px) 0;border-top:1px solid var(--line-2);align-items:start}
+.step:last-child{border-bottom:1px solid var(--line-2)}
+.step-n{font-family:var(--f-display);font-size:clamp(30px,3.6vw,46px);line-height:.9;color:var(--gold);
+  min-width:1.8em;font-variant-numeric:tabular-nums}
+.step h3{font-family:var(--f-display);font-size:clamp(19px,2vw,25px);font-weight:400;line-height:1.25}
+.step p{color:var(--ink-2);font-size:15.5px;line-height:1.8;margin-top:10px;max-width:62ch}
+
+/* cost cards */
+.costs{display:grid;grid-template-columns:1fr;gap:clamp(16px,1.8vw,22px)}
+@media (min-width:640px){.costs{grid-template-columns:repeat(2,1fr)}}
+@media (min-width:1040px){.costs{grid-template-columns:repeat(4,1fr)}}
+.cost{background:var(--panel);border:1px solid var(--line-2);padding:clamp(24px,2.6vw,32px);
+  display:flex;flex-direction:column;gap:10px;transition:.3s}
+.cost:hover{border-color:var(--gold);transform:translateY(-3px);box-shadow:var(--shadow)}
+.cost .k{font-size:9.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--gold)}
+.cost .v{font-family:var(--f-display);font-size:clamp(26px,2.8vw,34px);line-height:1;color:var(--ink)}
+.cost p{color:var(--ink-2);font-size:14.5px;line-height:1.7;flex:1 0 auto}
+.note{margin-top:clamp(20px,2.4vw,28px);font-size:13px;line-height:1.8;color:var(--muted);max-width:70ch}
+
+/* strategies */
+.strats{display:grid;grid-template-columns:1fr;gap:clamp(16px,1.8vw,24px);counter-reset:st}
+@media (min-width:700px){.strats{grid-template-columns:repeat(2,1fr)}}
+@media (min-width:1060px){.strats{grid-template-columns:repeat(3,1fr)}}
+.strat{border:1px solid var(--line-2);padding:clamp(24px,2.6vw,32px);background:var(--panel);position:relative}
+.strat::before{counter-increment:st;content:counter(st,decimal-leading-zero);
+  font-family:var(--f-display);font-size:13px;letter-spacing:.1em;color:var(--gold);display:block;margin-bottom:14px}
+.strat h3{font-family:var(--f-sans);font-size:11.5px;letter-spacing:.2em;text-transform:uppercase;
+  font-weight:400;color:var(--ink)}
+.strat p{color:var(--ink-2);font-size:14.5px;line-height:1.75;margin-top:12px}
+
+/* two-column list block */
+.duo{display:grid;grid-template-columns:1fr;gap:clamp(28px,4vw,64px)}
+@media (min-width:900px){.duo{grid-template-columns:repeat(2,1fr)}}
+.ck{list-style:none;margin:14px 0 0;padding:0}
+.ck li{position:relative;padding:11px 0 11px 28px;border-bottom:1px solid var(--line-2);
+  color:var(--ink-2);font-size:15px;line-height:1.7}
+.ck li::before{content:"";position:absolute;left:2px;top:19px;width:9px;height:9px;
+  border:1px solid var(--gold);transform:rotate(45deg)}
+
+/* timeline */
+.tl{display:grid;grid-template-columns:1fr;gap:0}
+@media (min-width:820px){.tl{grid-template-columns:repeat(4,1fr);gap:clamp(16px,1.8vw,22px)}}
+.tl-i{border-top:2px solid var(--gold);padding:20px 0 26px}
+@media (max-width:819px){.tl-i{border-top:1px solid var(--line-2)}.tl-i:first-child{border-top:2px solid var(--gold)}}
+.tl-i .k{font-size:9.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--gold)}
+.tl-i h3{font-family:var(--f-display);font-size:clamp(19px,2vw,24px);font-weight:400;margin-top:10px}
+.tl-i p{color:var(--ink-2);font-size:14.5px;line-height:1.75;margin-top:10px}
+
+/* guide CTA */
+.gcta{background:var(--bg-2);border-top:1px solid var(--line-2);border-bottom:1px solid var(--line-2)}
+.gcta-in{max-width:var(--wrap);margin:0 auto;padding:clamp(48px,6vw,84px) var(--pad);
+  display:grid;grid-template-columns:1fr;gap:clamp(24px,3vw,44px);align-items:center}
+@media (min-width:900px){.gcta-in{grid-template-columns:minmax(0,1fr) auto}}
+.gcta h2{font-size:clamp(26px,3.2vw,40px);margin-top:12px;line-height:1.15}
+.gcta p{color:var(--ink-2);font-size:16px;line-height:1.8;margin-top:16px;max-width:52ch}
+.gcta-btns{display:flex;flex-wrap:wrap;gap:14px}
+</style>
+<header class="nav">
+  <div class="nav-in">
+    <a class="brand" href="index.html#home" aria-label="Jaime Enriquez, Realtor — home">
+      <span class="mono">JE</span>
+      <span><b>Jaime Enriquez</b><span>Realtor&reg;</span></span>
+    </a>
+    <nav class="menu" aria-label="Main">
+      <a href="index.html#home" data-en="Home" data-es="Inicio">Home</a>
+      <a href="index.html#buy" data-en="Buy" data-es="Comprar">Buy</a>
+      <a href="index.html#sell" data-en="Sell" data-es="Vender">Sell</a>
+      <a href="index.html#invest" data-en="Invest" data-es="Invertir">Invest</a>
+      <a href="buyers-guide.html" class="on" data-en="Buyer&rsquo;s Guide" data-es="Gu&iacute;a del Comprador">Buyer&rsquo;s Guide</a><a href="index.html#communities" data-en="Communities" data-es="Comunidades">Communities</a>
+      <a href="index.html#about" data-en="About" data-es="Sobre m&iacute;">About</a>
+      <a href="index.html#reviews" data-en="Reviews" data-es="Rese&ntilde;as">Reviews</a>
+      <a href="index.html#contact" data-en="Contact" data-es="Contacto">Contact</a>
+    </nav>
+    <div class="nav-r">
+      <div class="lang" role="group" aria-label="Language">
+        <button type="button" data-lang="en" aria-pressed="true">EN</button><span aria-hidden="true">|</span><button type="button" data-lang="es" aria-pressed="false">ES</button>
+      </div>
+      <button type="button" class="tbtn" id="themeBtn" aria-label="Switch between light and dark">
+        <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.1" aria-hidden="true" width="15" height="15"><circle cx="8" cy="8" r="3.3"/><path d="M8 1v1.8M8 13.2V15M1 8h1.8M13.2 8H15M3.05 3.05l1.3 1.3M11.65 11.65l1.3 1.3M12.95 3.05l-1.3 1.3M4.35 11.65l-1.3 1.3"/></svg>
+      </button>
+      <a class="navcta" href="index.html#contact" data-en="Let&rsquo;s Connect" data-es="Conectemos">Let&rsquo;s Connect</a>
+      <button type="button" class="burger" id="burger" aria-label="Menu" aria-expanded="false" aria-controls="drawer"><span></span></button>
+    </div>
+  </div>
+  <div class="drawer" id="drawer">
+    <a href="index.html#buy" data-en="Buy" data-es="Comprar">Buy</a>
+    <a href="index.html#sell" data-en="Sell" data-es="Vender">Sell</a>
+    <a href="index.html#invest" data-en="Invest" data-es="Invertir">Invest</a>
+    <a href="index.html#communities" data-en="Communities" data-es="Comunidades">Communities</a>
+    <a href="index.html#about" data-en="About" data-es="Sobre m&iacute;">About</a>
+    <a href="index.html#reviews" data-en="Reviews" data-es="Rese&ntilde;as">Reviews</a>
+    <a href="index.html#contact" data-en="Contact" data-es="Contacto">Contact</a>
+    <a class="btn dw-cta" href="index.html#contact" data-en="Let's Connect" data-es="Hablemos">Let's Connect</a>
+  </div>
+</header>
+<main>
+  <!-- ========== PAGE HERO ========== -->
+  <section class="pg-hero" id="guide-top">
+    <div class="pg-hero-in">
+      <p class="eyebrow" data-en="For Buyers" data-es="Para Compradores">For Buyers</p>
+      <h1 data-en="The Buyer&rsquo;s Journey" data-es="El Camino del Comprador">The Buyer&rsquo;s Journey</h1>
+      <hr class="rule">
+      <p class="lead" data-en="Buying a home is one of the largest purchases most people ever make. Here is the whole process, start to finish, so nothing about it catches you by surprise." data-es="Comprar una casa es una de las compras m&aacute;s grandes que la mayor&iacute;a de las personas hace en su vida. Aqu&iacute; est&aacute; todo el proceso, de principio a fin, para que nada te tome por sorpresa.">Buying a home is one of the largest purchases most people ever make. Here is the whole process, start to finish, so nothing about it catches you by surprise.</p>
+      <a class="backlink" href="index.html#home" data-en="&larr; Back to home" data-es="&larr; Volver al inicio">&larr; Back to home</a>
+    </div>
+  </section>
+
+  <!-- ========== TEN STEPS ========== -->
+  <section class="sect" id="steps">
+    <div class="wrap">
+      <div class="sec-head rise">
+        <p class="eyebrow" data-en="The Process" data-es="El Proceso">The Process</p>
+        <h2 data-en="Ten steps to a new home" data-es="Diez pasos hacia tu nueva casa">Ten steps to a new home</h2>
+        <p data-en="Every purchase moves through the same ten stages. Some take an afternoon, some take weeks &mdash; but knowing which one you are standing in is most of what makes the process feel manageable." data-es="Toda compra pasa por las mismas diez etapas. Algunas toman una tarde, otras semanas &mdash; pero saber en cu&aacute;l est&aacute;s parado es gran parte de lo que hace que el proceso se sienta manejable.">Every purchase moves through the same ten stages. Some take an afternoon, some take weeks &mdash; but knowing which one you are standing in is most of what makes the process feel manageable.</p>
+      </div>
+      <ol class="steps">
+        <li class="step rise"><span class="step-n">01</span><div>
+          <h3 data-en="Find the right agent" data-es="Encuentra al agente indicado">Find the right agent</h3>
+          <p data-en="The seller already has someone in their corner &mdash; a listing agent whose job is to get them top dollar. A buyer&rsquo;s agent owes that same duty to you. Interview more than one, and ask about fees, contract length, and how many clients they are carrying right now." data-es="El vendedor ya tiene a alguien de su lado &mdash; un agente de listado cuyo trabajo es conseguirle el mejor precio. Un agente de compradores te debe ese mismo deber a ti. Entrevista a m&aacute;s de uno y preg&uacute;ntale por sus honorarios, la duraci&oacute;n del contrato y cu&aacute;ntos clientes lleva en este momento.">The seller already has someone in their corner &mdash; a listing agent whose job is to get them top dollar. A buyer&rsquo;s agent owes that same duty to you. Interview more than one, and ask about fees, contract length, and how many clients they are carrying right now.</p>
+        </div></li>
+        <li class="step rise"><span class="step-n">02</span><div>
+          <h3 data-en="Prepare your finances" data-es="Prepara tus finanzas">Prepare your finances</h3>
+          <p data-en="Pull your credit report and flag any errors. Gather pay stubs, bank statements and past tax returns. Then decide what monthly payment you are actually comfortable with &mdash; remembering that taxes, insurance and any HOA dues sit on top of the mortgage itself." data-es="Revisa tu reporte de cr&eacute;dito y se&ntilde;ala cualquier error. Re&uacute;ne tus talones de pago, estados de cuenta y declaraciones de impuestos. Luego decide con qu&eacute; pago mensual te sientes realmente c&oacute;modo &mdash; recordando que los impuestos, el seguro y las cuotas de HOA se suman a la hipoteca.">Pull your credit report and flag any errors. Gather pay stubs, bank statements and past tax returns. Then decide what monthly payment you are actually comfortable with &mdash; remembering that taxes, insurance and any HOA dues sit on top of the mortgage itself.</p>
+        </div></li>
+        <li class="step rise"><span class="step-n">03</span><div>
+          <h3 data-en="Get pre-approved" data-es="Obt&eacute;n tu pre-aprobaci&oacute;n">Get pre-approved</h3>
+          <p data-en="Pre-qualified and pre-approved are not the same thing. Pre-approval means a lender has verified your income, assets, debt and credit and committed to a specific amount. It is what makes your offer competitive. Ask whether you qualify for a VA, FHA or state program while you are at it." data-es="Pre-calificado y pre-aprobado no son lo mismo. La pre-aprobaci&oacute;n significa que un prestamista ya verific&oacute; tus ingresos, bienes, deudas y cr&eacute;dito, y se comprometi&oacute; a una cantidad espec&iacute;fica. Es lo que hace competitiva tu oferta. De paso, pregunta si calificas para un programa VA, FHA o estatal.">Pre-qualified and pre-approved are not the same thing. Pre-approval means a lender has verified your income, assets, debt and credit and committed to a specific amount. It is what makes your offer competitive. Ask whether you qualify for a VA, FHA or state program while you are at it.</p>
+        </div></li>
+        <li class="step rise"><span class="step-n">04</span><div>
+          <h3 data-en="Start home shopping" data-es="Empieza a buscar casa">Start home shopping</h3>
+          <p data-en="Write down what the house has to have &mdash; bedrooms, bathrooms, kitchen size, storage, yard. Then think about everything around it: the commute, the shopping, how well the neighbouring homes are kept, how much traffic runs down the street. Spend real time in each area before you narrow down." data-es="Escribe lo que la casa debe tener &mdash; rec&aacute;maras, ba&ntilde;os, tama&ntilde;o de cocina, espacio de almacenamiento, patio. Luego piensa en todo lo que la rodea: el trayecto al trabajo, las tiendas, qu&eacute; tan bien cuidadas est&aacute;n las casas vecinas, cu&aacute;nto tr&aacute;fico pasa por la calle. Dedica tiempo real a cada zona antes de decidir.">Write down what the house has to have &mdash; bedrooms, bathrooms, kitchen size, storage, yard. Then think about everything around it: the commute, the shopping, how well the neighbouring homes are kept, how much traffic runs down the street. Spend real time in each area before you narrow down.</p>
+        </div></li>
+        <li class="step rise"><span class="step-n">05</span><div>
+          <h3 data-en="Make an offer" data-es="Haz una oferta">Make an offer</h3>
+          <p data-en="We assess what the property is actually worth in today&rsquo;s market with a comparative market analysis, then build an offer around it. In a seller&rsquo;s market the rule of thumb is to start strong rather than leave room to climb." data-es="Evaluamos cu&aacute;nto vale realmente la propiedad en el mercado actual con un an&aacute;lisis comparativo, y construimos la oferta alrededor de eso. En un mercado de vendedores, la regla es empezar fuerte en lugar de dejar espacio para subir.">We assess what the property is actually worth in today&rsquo;s market with a comparative market analysis, then build an offer around it. In a seller&rsquo;s market the rule of thumb is to start strong rather than leave room to climb.</p>
+        </div></li>
+        <li class="step rise"><span class="step-n">06</span><div>
+          <h3 data-en="Negotiate" data-es="Negocia">Negotiate</h3>
+          <p data-en="An offer is accepted, declined, or countered. A counter means the seller wants different terms &mdash; you can accept, decline, or counter back. This can go back and forth as many rounds as it needs to, until you agree or one side walks. When everyone agrees, you are under contract." data-es="Una oferta se acepta, se rechaza o se contra-oferta. Una contra-oferta significa que el vendedor quiere otros t&eacute;rminos &mdash; puedes aceptar, rechazar o contra-ofertar de nuevo. Esto puede ir y venir las rondas que hagan falta, hasta que lleguen a un acuerdo o alguien se retire. Cuando todos est&aacute;n de acuerdo, quedas bajo contrato.">An offer is accepted, declined, or countered. A counter means the seller wants different terms &mdash; you can accept, decline, or counter back. This can go back and forth as many rounds as it needs to, until you agree or one side walks. When everyone agrees, you are under contract.</p>
+        </div></li>
+        <li class="step rise"><span class="step-n">07</span><div>
+          <h3 data-en="Order the inspection" data-es="Ordena la inspecci&oacute;n">Order the inspection</h3>
+          <p data-en="During the option period a licensed inspector goes through the house and hands back a list of findings. This is your leverage: what turns up here is what you negotiate on next, and it is also what tells you whether to keep going at all." data-es="Durante el periodo de opci&oacute;n, un inspector con licencia revisa la casa y entrega una lista de hallazgos. Esta es tu ventaja: lo que aparezca aqu&iacute; es sobre lo que negociar&aacute;s despu&eacute;s, y tambi&eacute;n es lo que te dice si vale la pena seguir adelante.">During the option period a licensed inspector goes through the house and hands back a list of findings. This is your leverage: what turns up here is what you negotiate on next, and it is also what tells you whether to keep going at all.</p>
+        </div></li>
+        <li class="step rise"><span class="step-n">08</span><div>
+          <h3 data-en="The appraisal" data-es="El aval&uacute;o">The appraisal</h3>
+          <p data-en="If you are financing, your lender orders an appraisal before the sale can close. You do not want it to come in below the price you negotiated &mdash; if it does, the gap has to be renegotiated or covered in cash. I work the appraisal deliberately to support the agreed value." data-es="Si est&aacute;s financiando, tu prestamista ordena un aval&uacute;o antes de que la venta pueda cerrar. No quieres que salga por debajo del precio negociado &mdash; si pasa, esa diferencia hay que renegociarla o cubrirla en efectivo. Yo trabajo el aval&uacute;o de forma deliberada para respaldar el valor acordado.">If you are financing, your lender orders an appraisal before the sale can close. You do not want it to come in below the price you negotiated &mdash; if it does, the gap has to be renegotiated or covered in cash. I work the appraisal deliberately to support the agreed value.</p>
+        </div></li>
+        <li class="step rise"><span class="step-n">09</span><div>
+          <h3 data-en="Plan your move" data-es="Planea tu mudanza">Plan your move</h3>
+          <p data-en="The month between contract and keys fills up faster than people expect &mdash; movers, utilities, insurance quotes, title work, address changes. There is a week-by-week schedule further down this page." data-es="El mes entre el contrato y las llaves se llena m&aacute;s r&aacute;pido de lo que la gente espera &mdash; mudanza, servicios, cotizaciones de seguro, tr&aacute;mites de t&iacute;tulo, cambios de direcci&oacute;n. M&aacute;s abajo en esta p&aacute;gina hay un calendario semana por semana.">The month between contract and keys fills up faster than people expect &mdash; movers, utilities, insurance quotes, title work, address changes. There is a week-by-week schedule further down this page.</p>
+        </div></li>
+        <li class="step rise"><span class="step-n">10</span><div>
+          <h3 data-en="Closing day" data-es="D&iacute;a de cierre">Closing day</h3>
+          <p data-en="You sign the ownership and insurance paperwork and you get the keys. Closing typically lands three to five weeks after you go under contract." data-es="Firmas los documentos de propiedad y de seguro, y recibes las llaves. El cierre normalmente ocurre de tres a cinco semanas despu&eacute;s de quedar bajo contrato.">You sign the ownership and insurance paperwork and you get the keys. Closing typically lands three to five weeks after you go under contract.</p>
+        </div></li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ========== COSTS ========== -->
+  <section class="sect" id="costs" style="background:var(--bg-2);border-top:1px solid var(--line-2);border-bottom:1px solid var(--line-2)">
+    <div class="wrap">
+      <div class="sec-head rise">
+        <p class="eyebrow" data-en="Before You Start" data-es="Antes de Empezar">Before You Start</p>
+        <h2 data-en="What you&rsquo;ll need in cash" data-es="Lo que necesitar&aacute;s en efectivo">What you&rsquo;ll need in cash</h2>
+        <p data-en="Four separate costs, paid at different moments. Lenders generally advise against stretching past three to five times your annual household income." data-es="Cuatro costos distintos, que se pagan en momentos diferentes. Los prestamistas generalmente recomiendan no exceder de tres a cinco veces tu ingreso familiar anual.">Four separate costs, paid at different moments. Lenders generally advise against stretching past three to five times your annual household income.</p>
+      </div>
+      <div class="costs">
+        <div class="cost rise">
+          <span class="k" data-en="Down payment" data-es="Enganche">Down payment</span>
+          <span class="v">3.5&ndash;20%</span>
+          <p data-en="Of the purchase price, depending on your loan type. Some programs go lower." data-es="Del precio de compra, seg&uacute;n el tipo de pr&eacute;stamo. Algunos programas piden menos.">Of the purchase price, depending on your loan type. Some programs go lower.</p>
+        </div>
+        <div class="cost rise" data-d="1">
+          <span class="k" data-en="Earnest money" data-es="Dep&oacute;sito de buena fe">Earnest money</span>
+          <span class="v" data-en="Varies" data-es="Variable">Varies</span>
+          <p data-en="A good-faith deposit that signals you are serious. Back out without cause and you lose it." data-es="Un dep&oacute;sito de buena fe que demuestra que vas en serio. Si te retiras sin causa, lo pierdes.">A good-faith deposit that signals you are serious. Back out without cause and you lose it.</p>
+        </div>
+        <div class="cost rise" data-d="2">
+          <span class="k" data-en="Closing costs" data-es="Costos de cierre">Closing costs</span>
+          <span class="v">2&ndash;5%</span>
+          <p data-en="Of the loan amount, due at the closing table. Sometimes negotiable as a seller credit." data-es="Del monto del pr&eacute;stamo, a pagar en el cierre. A veces se negocia como cr&eacute;dito del vendedor.">Of the loan amount, due at the closing table. Sometimes negotiable as a seller credit.</p>
+        </div>
+        <div class="cost rise" data-d="3">
+          <span class="k" data-en="Home inspection" data-es="Inspecci&oacute;n">Home inspection</span>
+          <span class="v">$350&ndash;$625</span>
+          <p data-en="Typical Dallas&ndash;Fort Worth range, scaling with square footage and the age of the home." data-es="Rango t&iacute;pico en Dallas&ndash;Fort Worth, seg&uacute;n los metros cuadrados y la edad de la casa.">Typical Dallas&ndash;Fort Worth range, scaling with square footage and the age of the home.</p>
+        </div>
+      </div>
+      <p class="note" data-en="Figures are general guidance for the Dallas&ndash;Fort Worth market, not a quote. Your lender and title company will give you exact numbers for your transaction." data-es="Las cifras son una gu&iacute;a general para el mercado de Dallas&ndash;Fort Worth, no una cotizaci&oacute;n. Tu prestamista y la compa&ntilde;&iacute;a de t&iacute;tulos te dar&aacute;n los n&uacute;meros exactos de tu transacci&oacute;n.">Figures are general guidance for the Dallas&ndash;Fort Worth market, not a quote. Your lender and title company will give you exact numbers for your transaction.</p>
+    </div>
+  </section>
+
+  <!-- ========== OFFER STRATEGIES ========== -->
+  <section class="sect" id="offer">
+    <div class="wrap">
+      <div class="sec-head rise">
+        <p class="eyebrow" data-en="Winning The Home" data-es="Ganar La Casa">Winning The Home</p>
+        <h2 data-en="Five ways to strengthen an offer" data-es="Cinco formas de fortalecer una oferta">Five ways to strengthen an offer</h2>
+        <p data-en="In a competitive market the highest number does not automatically win. These are the levers that move a seller." data-es="En un mercado competitivo, el n&uacute;mero m&aacute;s alto no gana autom&aacute;ticamente. Estas son las palancas que mueven a un vendedor.">In a competitive market the highest number does not automatically win. These are the levers that move a seller.</p>
+      </div>
+      <div class="strats">
+        <div class="strat rise">
+          <h3 data-en="Competitive offer" data-es="Oferta competitiva">Competitive offer</h3>
+          <p data-en="Start strong. We price the offer off a real comparative market analysis rather than off the asking price." data-es="Empieza fuerte. Fijamos la oferta con base en un an&aacute;lisis comparativo real, no en el precio de lista.">Start strong. We price the offer off a real comparative market analysis rather than off the asking price.</p>
+        </div>
+        <div class="strat rise" data-d="1">
+          <h3 data-en="Earnest money" data-es="Dep&oacute;sito de buena fe">Earnest money</h3>
+          <p data-en="Consider doubling what the seller asks for, or what is customary locally. It is the clearest signal of intent you can send." data-es="Considera duplicar lo que pide el vendedor, o lo que es costumbre en la zona. Es la se&ntilde;al de intenci&oacute;n m&aacute;s clara que puedes enviar.">Consider doubling what the seller asks for, or what is customary locally. It is the clearest signal of intent you can send.</p>
+        </div>
+        <div class="strat rise" data-d="2">
+          <h3 data-en="The gift of time" data-es="El regalo del tiempo">The gift of time</h3>
+          <p data-en="Ask the sellers what their ideal closing date is, then work to it. Flexibility on timing often beats money on the table." data-es="Preg&uacute;ntale a los vendedores cu&aacute;l ser&iacute;a su fecha ideal de cierre, y ac&oacute;plate. La flexibilidad en fechas muchas veces vale m&aacute;s que el dinero.">Ask the sellers what their ideal closing date is, then work to it. Flexibility on timing often beats money on the table.</p>
+        </div>
+        <div class="strat rise" data-d="3">
+          <h3 data-en="Make a connection" data-es="Haz una conexi&oacute;n">Make a connection</h3>
+          <p data-en="Tell them why you love the house. Sellers reviewing a stack of offers remember the family who wrote about their kitchen." data-es="Diles por qu&eacute; te encanta la casa. Los vendedores que revisan un mont&oacute;n de ofertas recuerdan a la familia que escribi&oacute; sobre su cocina.">Tell them why you love the house. Sellers reviewing a stack of offers remember the family who wrote about their kitchen.</p>
+        </div>
+        <div class="strat rise" data-d="4">
+          <h3 data-en="Limit contingencies" data-es="Limita las contingencias">Limit contingencies</h3>
+          <p data-en="Contingencies protect you but slow the seller down. The National Association of Realtors finds the offer with the fewest is often the most attractive &mdash; so we keep the ones that matter and drop the rest." data-es="Las contingencias te protegen pero retrasan al vendedor. La Asociaci&oacute;n Nacional de Realtors encuentra que la oferta con menos contingencias suele ser la m&aacute;s atractiva &mdash; as&iacute; que conservamos las que importan y quitamos el resto.">Contingencies protect you but slow the seller down. The National Association of Realtors finds the offer with the fewest is often the most attractive &mdash; so we keep the ones that matter and drop the rest.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== AFTER INSPECTION + CLOSING DAY ========== -->
+  <section class="sect" id="afterwards" style="background:var(--bg-2);border-top:1px solid var(--line-2);border-bottom:1px solid var(--line-2)">
+    <div class="wrap duo">
+      <div class="rise">
+        <p class="eyebrow" data-en="After The Inspection" data-es="Despu&eacute;s de la Inspecci&oacute;n">After The Inspection</p>
+        <h2 style="font-family:var(--f-display);font-size:clamp(24px,2.8vw,34px);margin-top:12px" data-en="Five ways forward" data-es="Cinco caminos a seguir">Five ways forward</h2>
+        <p style="color:var(--ink-2);font-size:15.5px;line-height:1.8;margin-top:14px" data-en="If the report turns up problems, get a contractor&rsquo;s estimate for the repairs first. That number is the leverage &mdash; and I handle the negotiation from there." data-es="Si el reporte encuentra problemas, primero consigue el presupuesto de un contratista para las reparaciones. Ese n&uacute;mero es la ventaja &mdash; y yo me encargo de la negociaci&oacute;n desde ah&iacute;.">If the report turns up problems, get a contractor&rsquo;s estimate for the repairs first. That number is the leverage &mdash; and I handle the negotiation from there.</p>
+        <ul class="ck">
+          <li data-en="Ask the seller to make the repairs" data-es="Pedir al vendedor que haga las reparaciones">Ask the seller to make the repairs</li>
+          <li data-en="Ask for credits toward your closing costs" data-es="Pedir cr&eacute;ditos para tus costos de cierre">Ask for credits toward your closing costs</li>
+          <li data-en="Ask for a price reduction to cover them" data-es="Pedir una reducci&oacute;n de precio que los cubra">Ask for a price reduction to cover them</li>
+          <li data-en="Back out &mdash; within the option period" data-es="Retirarte &mdash; dentro del periodo de opci&oacute;n">Back out &mdash; within the option period</li>
+          <li data-en="Move forward with the deal as written" data-es="Seguir adelante con el trato tal como est&aacute;">Move forward with the deal as written</li>
+        </ul>
+      </div>
+      <div class="rise" data-d="1">
+        <p class="eyebrow" data-en="Closing Day" data-es="D&iacute;a de Cierre">Closing Day</p>
+        <h2 style="font-family:var(--f-display);font-size:clamp(24px,2.8vw,34px);margin-top:12px" data-en="The final walk-through" data-es="El recorrido final">The final walk-through</h2>
+        <p style="color:var(--ink-2);font-size:15.5px;line-height:1.8;margin-top:14px" data-en="We walk the house within 24 hours of closing &mdash; about an hour &mdash; to confirm its condition and that any agreed repairs actually got done." data-es="Recorremos la casa dentro de las 24 horas previas al cierre &mdash; alrededor de una hora &mdash; para confirmar su estado y que las reparaciones acordadas realmente se hicieron.">We walk the house within 24 hours of closing &mdash; about an hour &mdash; to confirm its condition and that any agreed repairs actually got done.</p>
+        <ul class="ck">
+          <li data-en="Every appliance runs" data-es="Que todos los electrodom&eacute;sticos funcionen">Every appliance runs</li>
+          <li data-en="Every faucet runs, and nothing leaks" data-es="Que corra el agua en todas las llaves, sin fugas">Every faucet runs, and nothing leaks</li>
+          <li data-en="Garage doors open and close on the opener" data-es="Que las puertas del garaje abran y cierren con el control">Garage doors open and close on the opener</li>
+          <li data-en="Toilets flush; disposal and exhaust fans work" data-es="Que los ba&ntilde;os descarguen; que sirvan el triturador y los extractores">Toilets flush; disposal and exhaust fans work</li>
+          <li data-en="Bring a government photo ID and proof of wire or a cashier&rsquo;s check" data-es="Lleva identificaci&oacute;n oficial con foto y comprobante de transferencia o cheque de caja">Bring a government photo ID and proof of wire or a cashier&rsquo;s check</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== MOVING TIMELINE ========== -->
+  <section class="sect" id="timeline">
+    <div class="wrap">
+      <div class="sec-head rise">
+        <p class="eyebrow" data-en="Scheduling Your Move" data-es="Organizando Tu Mudanza">Scheduling Your Move</p>
+        <h2 data-en="The last four weeks" data-es="Las &uacute;ltimas cuatro semanas">The last four weeks</h2>
+      </div>
+      <div class="tl">
+        <div class="tl-i rise">
+          <span class="k" data-en="Four weeks out" data-es="Cuatro semanas antes">Four weeks out</span>
+          <h3 data-en="Book and pack" data-es="Reserva y empaca">Book and pack</h3>
+          <p data-en="Give 30 days&rsquo; notice if you are renting. Book the movers or the truck, buy packing materials, and start packing." data-es="Da aviso con 30 d&iacute;as si est&aacute;s rentando. Reserva la mudanza o el cami&oacute;n, compra materiales de empaque y empieza a empacar.">Give 30 days&rsquo; notice if you are renting. Book the movers or the truck, buy packing materials, and start packing.</p>
+        </div>
+        <div class="tl-i rise" data-d="1">
+          <span class="k" data-en="Three weeks out" data-es="Tres semanas antes">Three weeks out</span>
+          <h3 data-en="Sort and record" data-es="Ordena y registra">Sort and record</h3>
+          <p data-en="Go through every drawer and closet &mdash; donate or sell what you will not want in the new house. Collect medical records and inventory anything valuable." data-es="Revisa cada caj&oacute;n y cl&oacute;set &mdash; dona o vende lo que no quieras en la casa nueva. Re&uacute;ne expedientes m&eacute;dicos y haz inventario de lo valioso.">Go through every drawer and closet &mdash; donate or sell what you will not want in the new house. Collect medical records and inventory anything valuable.</p>
+        </div>
+        <div class="tl-i rise" data-d="2">
+          <span class="k" data-en="Two weeks out" data-es="Dos semanas antes">Two weeks out</span>
+          <h3 data-en="Switch it over" data-es="Haz los cambios">Switch it over</h3>
+          <p data-en="Contact water, electric and cable. Change your mailing address and subscriptions. Stop buying groceries you will only have to move." data-es="Contacta agua, luz y cable. Cambia tu direcci&oacute;n postal y suscripciones. Deja de comprar despensa que solo vas a tener que mudar.">Contact water, electric and cable. Change your mailing address and subscriptions. Stop buying groceries you will only have to move.</p>
+        </div>
+        <div class="tl-i rise" data-d="3">
+          <span class="k" data-en="One week out" data-es="Una semana antes">One week out</span>
+          <h3 data-en="Finish and confirm" data-es="Termina y confirma">Finish and confirm</h3>
+          <p data-en="Finish packing and clean. Set aside a box of essentials for the first few nights. Confirm the delivery date, and write down the new address and your cell number for the movers." data-es="Termina de empacar y limpia. Aparta una caja con lo esencial para las primeras noches. Confirma la fecha de entrega y an&oacute;tale a la mudanza la nueva direcci&oacute;n y tu n&uacute;mero de celular.">Finish packing and clean. Set aside a box of essentials for the first few nights. Confirm the delivery date, and write down the new address and your cell number for the movers.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- ========== CTA ========== -->
+<section class="gcta">
+  <div class="gcta-in">
+    <div class="rise">
+      <p class="eyebrow" data-en="Ready When You Are" data-es="Listo Cuando T&uacute; Lo Est&eacute;s">Ready When You Are</p>
+      <h2 data-en="Let&rsquo;s talk through your move" data-es="Hablemos de tu mudanza">Let&rsquo;s talk through your move</h2>
+      <p data-en="Every purchase is different. Tell me where you are in the process &mdash; whether that is pre-approved and shopping, or just starting to wonder if it is possible &mdash; and I&rsquo;ll take it from there. In English or in Spanish." data-es="Cada compra es distinta. Cu&eacute;ntame en qu&eacute; punto est&aacute;s &mdash; ya sea pre-aprobado y buscando, o apenas empezando a preguntarte si es posible &mdash; y yo me encargo desde ah&iacute;. En ingl&eacute;s o en espa&ntilde;ol.">Every purchase is different. Tell me where you are in the process &mdash; whether that is pre-approved and shopping, or just starting to wonder if it is possible &mdash; and I&rsquo;ll take it from there. In English or in Spanish.</p>
+    </div>
+    <div class="gcta-btns rise" data-d="1">
+      <a class="btn" href="index.html#contact" data-en="Start the conversation" data-es="Empecemos a platicar">Start the conversation</a>
+      <a class="btn ghost" href="https://drive.google.com/file/d/1vGTmu3nAzF16t6f2MZZbuVHAVIXSBeYl/view" target="_blank" rel="noopener" data-en="Download the full guide" data-es="Descarga la gu&iacute;a completa">Download the full guide</a>
+    </div>
+  </div>
+</section>
+
+<footer class="foot">
+  <div class="wrap foot-in">
+    <span>&copy; 2026 Jaime Enriquez, Realtor&reg; &middot; Monument Realty</span>
+    <span data-en="TREC Information About Brokerage Services &mdash; link pending" data-es="TREC Informaci&oacute;n Sobre Servicios de Corretaje &mdash; enlace pendiente">TREC Information About Brokerage Services &mdash; link pending</span>
+    <span data-en="TREC Consumer Protection Notice &mdash; link pending" data-es="Aviso de Protecci&oacute;n al Consumidor TREC &mdash; enlace pendiente">TREC Consumer Protection Notice &mdash; link pending</span>
+    <span data-en="Equal Housing Opportunity" data-es="Igualdad de Oportunidad en la Vivienda">Equal Housing Opportunity</span>
+  </div>
+</footer>
+<script>
+(function(){
+  "use strict";
+  var root = document.documentElement;
+  var reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  var store = {
+    get:function(k){try{return localStorage.getItem(k)}catch(e){return null}},
+    set:function(k,v){try{localStorage.setItem(k,v)}catch(e){}}
+  };
+
+  /* ---- theme ---- */
+  var saved = store.get("je-theme");
+  if(saved === "dark" || saved === "light") root.setAttribute("data-theme", saved);
+  var themeBtn = document.getElementById("themeBtn");
+  if(themeBtn){
+    themeBtn.addEventListener("click", function(){
+      var ex = root.getAttribute("data-theme");
+      var isDark = ex ? ex === "dark" : window.matchMedia("(prefers-color-scheme: dark)").matches;
+      var next = isDark ? "light" : "dark";
+      root.setAttribute("data-theme", next);
+      store.set("je-theme", next);
+    });
+  }
+
+  /* ---- language ---- */
+  var langNodes = Array.prototype.slice.call(document.querySelectorAll("[data-en]"));
+  var phNodes   = Array.prototype.slice.call(document.querySelectorAll("[data-en-ph]"));
+  var langBtns  = Array.prototype.slice.call(document.querySelectorAll(".lang button"));
+  function setLang(lang){
+    langNodes.forEach(function(n){
+      var v = n.getAttribute("data-" + lang);
+      if(v != null) n.innerHTML = v;
+    });
+    phNodes.forEach(function(n){
+      var v = n.getAttribute("data-" + lang + "-ph");
+      if(v != null) n.setAttribute("placeholder", v);
+    });
+    langBtns.forEach(function(b){
+      b.setAttribute("aria-pressed", String(b.getAttribute("data-lang") === lang));
+    });
+    root.setAttribute("lang", lang === "es" ? "es" : "en");
+    store.set("je-lang", lang);
+    document.dispatchEvent(new CustomEvent("je:lang"));
+  }
+  langBtns.forEach(function(b){
+    b.addEventListener("click", function(){ setLang(b.getAttribute("data-lang")); });
+  });
+  if(store.get("je-lang") === "es") setLang("es");
+
+  /* ---- mobile drawer ---- */
+  var burger = document.getElementById("burger"), drawer = document.getElementById("drawer");
+  if(burger && drawer){
+    burger.addEventListener("click", function(){
+      var open = drawer.classList.toggle("open");
+      burger.setAttribute("aria-expanded", String(open));
+    });
+    drawer.addEventListener("click", function(e){
+      if(e.target.tagName === "A"){ drawer.classList.remove("open"); burger.setAttribute("aria-expanded","false"); }
+    });
+  }
+
+  /* ---- reveal ---- */
+  var reveals = Array.prototype.slice.call(document.querySelectorAll(".rise"));
+  if(reduce || !("IntersectionObserver" in window)){
+    reveals.forEach(function(el){ el.classList.add("in"); });
+  } else {
+    var io = new IntersectionObserver(function(en){
+      en.forEach(function(e){ if(e.isIntersecting){ e.target.classList.add("in"); io.unobserve(e.target); } });
+    }, { threshold: 0.12, rootMargin: "0px 0px -5% 0px" });
+    reveals.forEach(function(el){ io.observe(el); });
+  }
+})();
+</script>
+</body>
+</html>
