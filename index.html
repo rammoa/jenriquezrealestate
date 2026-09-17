@@ -181,8 +181,11 @@ p{margin:0}
   transform:scale(calc(1 + .07 * clamp(0,(.50 - var(--p,0))/.38,1)))}
 .pin-on .hero-scrim,.pin-on .hero-base{opacity:0;transition:opacity .9s cubic-bezier(.2,.7,.2,1)}
 .pin-on.hero-go .hero-scrim,.pin-on.hero-go .hero-base{opacity:1}
-/* the pinned panel is a full screen tall where the old hero was ~520px, so the
-   figure has to grow with it or the composition opens a hole in the middle */
+/* the panel is a full viewport where the hero used to be ~620px on a desktop and
+   ~520px on a phone, so the figure is re-sized per breakpoint: shrunk on desktop,
+   where 96% of a taller panel put his head into the nav, and grown on a phone,
+   where the old height left a hole in the middle of the composition */
+.pin-on .portrait{height:76%}
 @media (max-width:900px){
   .pin-on .portrait{height:60%;right:-4%}
   .pin-on .hero-in{padding-top:calc(var(--navh) + clamp(18px,4vw,40px))}
