@@ -960,6 +960,9 @@ html{scroll-behavior:smooth;scroll-padding-top:calc(var(--navh) + 12px)}
     function onScroll(){ if(!queued){ queued = true; requestAnimationFrame(measure); } }
     addEventListener("scroll", onScroll, {passive:true});
     addEventListener("resize", onScroll);
+    /* rAF is paused while the tab is hidden, so a page restored mid-scroll in a
+       background tab would come back with a stale --p. Re-measure on reveal. */
+    document.addEventListener("visibilitychange", function(){ if(!document.hidden) onScroll(); });
     measure();
   } else {
     armEntrance();
