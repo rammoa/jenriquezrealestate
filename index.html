@@ -198,6 +198,9 @@ p{margin:0}
 .pin-on .hero .sub,.pin-on .hero-btns,.pin-on .portrait{animation-play-state:paused}
 .pin-on.hero-go .hero .eyebrow,.pin-on.hero-go .hero h1 .ln i,.pin-on.hero-go .hero .rule,
 .pin-on.hero-go .hero .sub,.pin-on.hero-go .hero-btns,.pin-on.hero-go .portrait{animation-play-state:running}
+/* one reflow with no animation-name rewinds the group so it can play again */
+.anim-rewind .hero .eyebrow,.anim-rewind .hero h1 .ln i,.anim-rewind .hero .rule,
+.anim-rewind .hero .sub,.anim-rewind .hero-btns,.anim-rewind .portrait{animation:none!important}
 
 /* Copy stays above the fold for the whole pin, so nothing about the sequence is
    discoverable without a nudge. The cue fades as soon as the scroll begins. */
@@ -937,12 +940,27 @@ html{scroll-behavior:smooth;scroll-padding-top:calc(var(--navh) + 12px)}
      --p and let CSS do the drawing: blueprint out, photograph in, then the copy and
      Jaime play their entrance. Reduced motion skips the whole thing. */
   var hero = document.getElementById("home");
+  var doneTimer = null;
+
   function armEntrance(){
     if(root.classList.contains("hero-go")) return;
     root.classList.add("hero-go");
-    /* the entrance is one-shot: freeze it so the language toggle rewriting the
-       headline's innerHTML can't restart it mid-page */
-    setTimeout(function(){ root.classList.add("anim-done"); }, 2400);
+    /* Freeze it once it has played. setLang() rewrites the headline's innerHTML,
+       which would otherwise restart the line animations mid-page. */
+    doneTimer = setTimeout(function(){ root.classList.add("anim-done"); }, 2400);
+  }
+
+  function rewindEntrance(){
+    if(!root.classList.contains("hero-go")) return;
+    clearTimeout(doneTimer);
+    root.classList.remove("hero-go", "anim-done");
+    /* Paused animations hold their position, so simply re-arming would resume a
+       finished animation and the copy would snap in. Dropping animation-name for
+       one synchronous reflow rewinds them to frame zero. Both class changes land
+       in the same task, so nothing paints in between. */
+    root.classList.add("anim-rewind");
+    void document.body.offsetWidth;
+    root.classList.remove("anim-rewind");
   }
 
   if(hero && !reduce){
@@ -959,6 +977,7 @@ html{scroll-behavior:smooth;scroll-padding-top:calc(var(--navh) + 12px)}
         root.style.setProperty("--p", p.toFixed(4));
       }
       if(p >= 0.55) armEntrance();
+      else if(p < 0.40) rewindEntrance();
     }
     function onScroll(){ if(!queued){ queued = true; requestAnimationFrame(measure); } }
     addEventListener("scroll", onScroll, {passive:true});
